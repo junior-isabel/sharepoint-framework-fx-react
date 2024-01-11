@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-users-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/listUsers/ListUsersCommandSet.js",
+          "manifest": "./src/extensions/listUsers/ListUsersCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListUsersCommandSetStrings": "lib/extensions/listUsers/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://itgcloud.sharepoint.com/sites/MicrosoftDemo/Documentos%20Partilhados1/Forms/AllItems.aspx",
+      "customActions": {
+        "30d7631b-0362-41e0-9d10-48d17f12615c": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible.",
+            "sampleTextThree": "Three item is selected in the list"
+          }
+        }
+      }
+    },
+    "listUsers": {
+      "pageUrl": "https://itgcloud.sharepoint.com/sites/MicrosoftDemo/Documentos%20Partilhados1/Forms/AllItems.aspx",
+      "customActions": {
+        "30d7631b-0362-41e0-9d10-48d17f12615c": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible.",
+            "sampleTextThree": "Three item is selected in the list"
+          }
+        }
+      }
+    }
+  }
+}
